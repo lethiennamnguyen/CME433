@@ -1,0 +1,60 @@
+# Loading project parity_tb
+# Compile of parity.vo was successful.
+# Compile of parity_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.parity_tb -L altera_ver -L altera_mf_ver -L cycloneive_ver
+# vsim work.parity_tb -L altera_ver -L altera_mf_ver -L cycloneive_ver 
+# Start time: 10:29:54 on Sep 23,2022
+# Loading sv_std.std
+# Loading work.parity_tb
+# Loading work.parity
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# ** Error: (vsim-3043) Unresolved reference to 'Dick'.
+#    Time: 0 ps  Iteration: 0  Instance: /parity_tb File: /home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim/parity_tb.sv Line: 38
+# Error loading design
+# End time: 10:29:54 on Sep 23,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 4
+# Compile of parity.vo was successful.
+# Compile of parity_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_ver -L altera_mf_ver -L cycloneive_ver work.parity_tb
+# vsim -L altera_ver -L altera_mf_ver -L cycloneive_ver work.parity_tb 
+# Start time: 10:30:28 on Sep 23,2022
+# Loading sv_std.std
+# Loading work.parity_tb
+# Loading work.parity
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+do wave.do
+run -all
+# ERROR F_davio is not functionally equivalent to the conventional method
+# ** Note: $stop    : /home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim/parity_tb.sv(23)
+#    Time: 1 us  Iteration: 0  Instance: /parity_tb
+# Break in Module parity_tb at /home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim/parity_tb.sv line 23
+quit -sim
+# End time: 10:32:24 on Sep 23,2022, Elapsed time: 0:01:56
+# Errors: 0, Warnings: 2
+# Compile of parity.vo was successful.
+# Compile of parity_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_ver -L altera_mf_ver -L cycloneive_ver work.parity_tb
+# vsim -L altera_ver -L altera_mf_ver -L cycloneive_ver work.parity_tb 
+# Start time: 10:32:31 on Sep 23,2022
+# Loading sv_std.std
+# Loading work.parity_tb
+# Loading work.parity
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+do wave.do
+run -all
+# VERIFY F_davio is functionally equivalent to the conventional method
+# ** Note: $stop    : /home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim/parity_tb.sv(23)
+#    Time: 1 us  Iteration: 0  Instance: /parity_tb
+# Break in Module parity_tb at /home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim/parity_tb.sv line 23

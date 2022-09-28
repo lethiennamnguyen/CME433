@@ -1,0 +1,153 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/nln157/engr-ece
+vhard_block
+Z0 !s110 1663950747
+!i10b 1
+!s100 55F6Z2a3a6MZ:^2=b`lZ11
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IHCUN^LmCW@4NYWFIK<KV52
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim
+Z4 w1663950238
+Z5 8/home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim/parity.vo
+Z6 F/home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim/parity.vo
+!i122 232
+L0 415 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1663950747.000000
+Z9 !s107 /home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim/parity.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|/home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim/parity.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vparity
+R0
+!i10b 1
+!s100 ^d?jQGfO5jTJ0EQnHDWzG0
+R1
+I]B00S0IkU09dzS;H`fB:c0
+R2
+R3
+R4
+R5
+R6
+!i122 232
+L0 32 382
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vparity_conventional
+Z13 !s110 1663870822
+!i10b 1
+!s100 @1Y>E[OGdi=g]UC`Dk^L83
+R1
+ImceOieFX`Yj_UD:QU07[?0
+R2
+R3
+w1663707555
+8/home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/parity_conventional.v
+F/home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/parity_conventional.v
+!i122 224
+L0 1 18
+R7
+r1
+!s85 0
+31
+Z14 !s108 1663870822.000000
+!s107 /home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/parity_conventional.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/parity_conventional.v|
+!i113 1
+R11
+R12
+vparity_davio
+R13
+!i10b 1
+!s100 >46:PD7WIbMGH2:DX^Xe`1
+R1
+I;iD;jkf>O:;XW2D3ikg840
+R2
+R3
+w1663775291
+8/home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/parity_davio_template.v
+F/home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/parity_davio_template.v
+!i122 225
+L0 7 37
+R7
+r1
+!s85 0
+31
+R14
+!s107 /home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/parity_davio_template.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/parity_davio_template.v|
+!i113 1
+R11
+R12
+vparity_tb
+Z15 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+!i10b 1
+!s100 1gf8Q^KYgf`6?=98PJIQ50
+R1
+IV=IaWHO3A0Lh0P82:41`a2
+R2
+S1
+R3
+w1663950696
+Z16 8/home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim/parity_tb.sv
+Z17 F/home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim/parity_tb.sv
+!i122 233
+L0 7 38
+R7
+r1
+!s85 0
+31
+R8
+Z18 !s107 /home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim/parity_tb.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/nln157/engr-ece/fourth_year_labs/CME433_labs/lab1_Basic_FPGA/simulation/modelsim/parity_tb.sv|
+!i113 1
+Z20 o-work work -sv
+R12
+vparity_testbench
+R15
+!s110 1663708059
+!i10b 1
+!s100 E9@hX]bSBZNc1a8=fd21l0
+R1
+IhMFfX2Q]F[]8[Y??fo4KQ1
+R2
+S1
+R3
+w1663708049
+R16
+R17
+!i122 8
+L0 3 22
+R7
+r1
+!s85 0
+31
+!s108 1663708059.000000
+R18
+R19
+!i113 1
+R20
+R12
